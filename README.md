@@ -26,7 +26,7 @@ A novel iterative extraction model utilizing Mamba State Space Models (SSMs).
 
 ## 🚀 Getting Started
 
-The models in this repository are designed to be trained in heavy-compute environments (e.g., Kaggle RTX 6000 Pro or A100 instances). 
+The models in this repository are designed to be trained in heavy-compute environments.
 
 Each subdirectory contains its own detailed `README.md` and Jupyter Notebook(s) ready to be uploaded and run on Kaggle. For dataset requirements, most models expect the **Libri5Mix** or **Libri3Mix** datasets.
 
