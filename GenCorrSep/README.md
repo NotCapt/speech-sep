@@ -25,7 +25,6 @@ By the time the audio leaves Stage 1, the 5 speakers are successfully separated,
 * `speech-sep.ipynb`: The Jupyter Notebook containing the entire pipeline. It includes the datasets, dataloaders, neural network classes, training loops, and inference logic.
 
 ## 🚀 How to Run on Kaggle (Recommended)
-This architecture is computationally heavy and is designed to be trained on high-end GPUs like the RTX 6000 or A100.
 
 1. **Upload the Notebook:** Upload `speech-sep.ipynb` to Kaggle.
 2. **Attach Data:** Attach the `Libri5Mix` dataset to your Kaggle notebook.
