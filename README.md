@@ -31,3 +31,6 @@ The models in this repository are designed to be trained in heavy-compute enviro
 Each subdirectory contains its own detailed `README.md` and Jupyter Notebook(s) ready to be uploaded and run on Kaggle. For dataset requirements, most models expect the **Libri5Mix** or **Libri3Mix** datasets.
 
 Check out the individual folders for deep dives into their respective architectures and training methodologies!
+
+
+![secret](img.jpeg)
