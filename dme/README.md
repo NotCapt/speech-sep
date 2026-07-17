@@ -119,7 +119,6 @@ Mixture x(t) [16kHz]
 - **Optimizer**: AdamW (lr=1.5e-4, weight_decay=1e-2)
 - **Scheduler**: Cosine annealing with 500-step warmup
 - **Epochs**: 50 (v1), 100 (v2 planned)
-- **Hardware**: Kaggle RTX 6000 Pro (96GB VRAM)
 - **Training Time**: ~10 hours for 50 epochs
 
 ---
@@ -465,11 +464,6 @@ This allows each iteration to train independently without compounding gradients.
 
 ### 7. Computational Headroom Not Fully Utilized
 
-**Problem**: With 96GB VRAM, we only used ~20-24GB. We could have:
-- Increased batch size from 2 to 8+ (faster training)
-- Used more Mamba blocks (6-8 instead of 4)
-- Increased model capacity (d_model=512 instead of 256)
-
 **Why We Didn't**: Conservative resource budgeting to ensure training stability. This was the correct choice for v1 exploration, but v2 can be more aggressive.
 
 ---
@@ -529,7 +523,7 @@ If you use this work in your research, please cite:
 
 - **Libri5Mix dataset**: Extended from LibriMix by Cosentino et al. (2020)
 - **Mamba SSM**: `mamba-ssm` package by Albert Gu and Tri Dao
-- **Kaggle**: Computational resources (RTX 6000 Pro with 96GB VRAM)
+- **Kaggle**: Computational resources 
 - **HuggingFace**: WavLM model hosting and `transformers` library
 - **Research community**: All cited papers that informed this architecture
 
